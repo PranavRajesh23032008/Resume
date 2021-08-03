@@ -1,5 +1,5 @@
 import Head from "next/head";
-import EachSkill from "../components/Container";
+import Container from "../components/Container";
 import Header from "../components/Header";
 
 const Hobbies = () => {
@@ -24,21 +24,23 @@ const Hobbies = () => {
           Hobbies
         </span>
         <div
-          className={"grid grid-flow-row-denses lg:space-x-3 md:grid-cols-3"}
+          className={
+            "grid grid-flow-row-denses lg:space-x-3 sm:grid-cols-2 md:grid-cols-3"
+          }
         >
-          <EachSkill
+          <Container
             name={"Play Piano"}
             buttonPosition={"hidden"}
             image={
               "https://i.pinimg.com/originals/03/c4/f9/03c4f9fc9c774e7698380dbd1dd58634.png"
             }
           />
-          <EachSkill
+          <Container
             name={"Programming"}
             buttonPosition={"hidden"}
             image={"https://image.flaticon.com/icons/png/512/1995/1995485.png"}
           />
-          <EachSkill
+          <Container
             name={"Listening to Music"}
             buttonPosition={"hidden"}
             image={
