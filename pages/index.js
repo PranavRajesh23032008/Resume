@@ -12,7 +12,10 @@ export default function Home() {
     <div className={"overflow-hidden"}>
       <Head>
         <title>Pranav Rajesh | Resumé</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link
+          rel="icon"
+          href="https://yt3.ggpht.com/yti/APfAmoFoy6qTylcYClPM3_2Pk_Vlc_aoBebPVgz7aaSOAQ=s88-c-k-c0x00ffffff-no-rj-mo"
+        />
       </Head>
       <Intro />
     </div>
