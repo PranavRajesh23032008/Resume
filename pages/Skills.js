@@ -12,6 +12,10 @@ const Skills = () => {
     >
       <Head>
         <title>Pranav Rajesh | Skills</title>
+        <link
+          rel="icon"
+          href="https://yt3.ggpht.com/yti/APfAmoFoy6qTylcYClPM3_2Pk_Vlc_aoBebPVgz7aaSOAQ=s88-c-k-c0x00ffffff-no-rj-mo"
+        />
       </Head>
       <Header />
       <div className={" p-10"}>
