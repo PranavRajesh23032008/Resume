@@ -4,12 +4,12 @@ const Header = () => {
   const router = useRouter();
   return (
     <div
-      className="py-4 sm:px-8 px-2 flex items-center shadow-lg sticky top-0 z-[10]"
+      className="py-4 sm:px-8 px-2 flex items-center shadow-lg sticky top-0 z-50"
       style={{ background: "#E2EFF7", height: "13vh" }}
     >
       <div
         className={
-          "mx-auto sm:ml-auto space-x-3 px-3 lg:space-x-20 md:space-x-5"
+          "mx-auto sm:ml-auto space-x-9 px-3 lg:space-x-20 md:space-x-5"
         }
       >
         <button

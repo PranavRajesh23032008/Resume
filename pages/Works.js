@@ -28,7 +28,7 @@ const Works = () => {
         </span>
         <div
           className={
-            "grid grid-flow-row-denses lg:space-x-3 md:grid-cols-2 lg:grid-cols-3 mt-10"
+            "grid  grid-flow-row-denses lg:space-x-3 md:grid-cols-2 lg:grid-cols-3 mt-10"
           }
         >
           <Project

@@ -14,18 +14,18 @@ const Skills = () => {
         <title>Pranav Rajesh | Skills</title>
       </Head>
       <Header />
-      <div className={"p-10"}>
+      <div className={" p-10"}>
         <span
           style={{
             borderBottom: "2px solid #8591F3",
           }}
-          className={"text-3xl font-semibold"}
+          className={" text-3xl font-semibold"}
         >
           Skills
         </span>
         <div
           className={
-            "grid grid-flow-row-denses lg:space-x-3 sm:grid-cols-2 md:grid-cols-3"
+            "grid grid-flow-row-denses lg:space-x-3 sm:grid-cols-2 md:grid-cols-3 -z-10 mt-10"
           }
         >
           <EachSkill
@@ -62,7 +62,9 @@ const Skills = () => {
             description={
               "Tailwind is a utility-first CSS framework. ... Instead Tailwind CSS operates on a lower level and provides you with a set of CSS helper classes."
             }
-            image={"https://cdn.worldvectorlogo.com/logos/tailwindcss.svg"}
+            image={
+              "https://iconape.com/wp-content/png_logo_vector/tailwind-css-logo.png"
+            }
           />
           <EachSkill
             name={"Firebase"}
@@ -71,7 +73,7 @@ const Skills = () => {
               "Firebase is a platform developed by Google for creating mobile and web applications. It was originally an independent company founded in 2011."
             }
             image={
-              "https://1.bp.blogspot.com/-YIfQT6q8ZM4/Vzyq5z1B8HI/AAAAAAAAAAc/UmWSSMLKtKgtH7CACElUp12zXkrPK5UoACLcB/s1600/image00.png"
+              "https://www.gstatic.com/devrel-devsite/prod/v0089c83aa8227c3439bf2708c0795dd13db533711d44eb626e640152d9fdf05e/firebase/images/touchicon-180.png"
             }
           />
           <EachSkill
@@ -89,7 +91,7 @@ const Skills = () => {
               "React Native is an open-source mobile application framework created by Facebook, Inc. It is used to develop applications for Android, Android TV, iOS, macOS, tvOS, Web apps by allowing developers to use the React Library for native Development"
             }
             image={
-              "https://miro.medium.com/max/1400/1*qSwzJfIzoH_xISGVoJAeMA.png"
+              "https://images.squarespace-cdn.com/content/v1/58d20c79725e25b221549193/1523276257276-EMMKZ7G962SDZKN2APIN/react_nativ_build_mobile_app-img.png"
             }
           />
         </div>

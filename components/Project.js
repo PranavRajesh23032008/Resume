@@ -2,8 +2,16 @@ import Image from "next/image";
 
 const Project = ({ name, githubLink, image }) => {
   return (
-    <div data-aos="fade-up" className={"mb-16 mr-5 shadow-lg p-7 rounded-2xl"}>
-      <Image objectFit={"contain"} src={image} alt="" className={"md:h-40 "} />
+    <div
+      data-aos="fade-up"
+      className={"mb-16 bg-white mr-5 shadow-lg p-7 rounded-2xl"}
+    >
+      <Image
+        objectFit={"contain"}
+        src={image}
+        alt=""
+        className={"md:h-40 rounded-lg shadow-lg"}
+      />
       <div className={"text-center"}>
         <h1 className={"font-semibold text-2xl my-3"}>{name}</h1>
         <a href={githubLink} target={"_blank"}>

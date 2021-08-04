@@ -25,7 +25,7 @@ const Hobbies = () => {
         </span>
         <div
           className={
-            "grid grid-flow-row-denses lg:space-x-3 sm:grid-cols-2 md:grid-cols-3"
+            "grid grid-flow-row-denses lg:space-x-3 sm:grid-cols-2 md:grid-cols-3 mt-10"
           }
         >
           <Container
